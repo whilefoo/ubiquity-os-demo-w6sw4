@@ -14,6 +14,8 @@ plugins:
       - plugin: "https://ubiquity-os-daemon-pricing-main.ubiquity.workers.dev"
         skipBotEvents: false
   - uses:
+      - plugin: "https://ubiquity-os-command-start-stop-main.ubiquity.workers.dev"
+  - uses:
       - plugin: "ubiquity-os-marketplace/text-conversation-rewards@main"
         skipBotEvents: false
         with:
